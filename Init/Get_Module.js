@@ -14,7 +14,8 @@ export default async function Get_Module({Name, Link}) {
   return [Name, Module_Info]
 
   function In_Module_Console() {
-    return [...document.querySelectorAll('.table-responsive')]
+		const All_NetSuite_Docs_Tables = [...document.querySelectorAll('.table-responsive')]
+    return All_NetSuite_Docs_Tables
       .map(div =>
         div.parentElement?.closest('div')?.parentElement?.closest('div'),
       )
@@ -58,5 +59,6 @@ export default async function Get_Module({Name, Link}) {
           },
         ).Table,
       }))
+		function 
   }
 }
