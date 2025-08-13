@@ -1,0 +1,1 @@
+export default interface N_https_Object_ServerResponse_Method_writeFile {}

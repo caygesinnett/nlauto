@@ -1,0 +1,5 @@
+import N_https_Object_SecureString from './-main'
+
+export default interface N_https_Object_SecureString_Method_convertEncoding {
+  (options: {fromEncoding: string; toEncoding: string}): N_https_Object_SecureString
+}

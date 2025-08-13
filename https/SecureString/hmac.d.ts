@@ -1,0 +1,1 @@
+export default interface N_https_Object_SecureString_Method_hmac {}

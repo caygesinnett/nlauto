@@ -1,0 +1,7 @@
+import N_https_Object_SecureString_Method_appendSecureString from './appendSecureString'
+import N_https_Object_SecureString_Method_convertEncoding from './convertEncoding'
+
+export default interface N_https_Object_SecureString {
+  convertEncoding: N_https_Object_SecureString_Method_convertEncoding
+  appendSecureString: N_https_Object_SecureString_Method_appendSecureString
+}

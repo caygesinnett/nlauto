@@ -14,6 +14,9 @@ import type N_ui_serverWidget_Method_createForm from './createForm.d.ts'
 import type N_ui_serverWidget_Method_createList from './createList.d.ts'
 
 export default interface N_ui_serverWidget {
+  /** This property does not actually exist on the module */
+  __name__: 'N/ui/serverWidget'
+
   AssistantSubmitAction: N_ui_serverWidget_Enum_AssistantSubmitAction
   FieldBreakType: N_ui_serverWidget_Enum_FieldBreakType
   FieldDisplayType: N_ui_serverWidget_Enum_FieldDisplayType
