@@ -1,10 +1,11 @@
-import N_encode from '../encode/-main'
-import N_https from '../https/-main'
-import N_record from '../record/-main'
-import N_runtime from '../runtime/-main'
-import N_search from '../search/-main'
+import type N_encode from '../encode/-main.d.ts'
+import type N_https from '../https/-main.d.ts'
+import type N_record from '../record/-main.d.ts'
+import type N_runtime from '../runtime/-main.d.ts'
+import type N_search from '../search/-main.d.ts'
+import type N_ui_serverWidget from '../ui_serverWidget/-main.d.ts'
 
-import Entry_Point from './entrypoint'
+import type Entry_Point from './entrypoint.d.ts'
 
 declare global {
   function define<const Importing_Modules extends readonly (keyof NetSuite_Module_Mapping)[]>(
@@ -23,4 +24,5 @@ type NetSuite_Module_Mapping = {
   'N/record': N_record
   'N/runtime': N_runtime
   'N/search': N_search
+  'N/ui/serverWidget': N_ui_serverWidget
 }

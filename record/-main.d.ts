@@ -9,7 +9,7 @@ export default interface N_record {
   Type: N_record_Type
 
   /**
-   * {@link https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_4267284169.html|NetSuite Reference - record.attach(options) }
+   * {@link https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_4267284169.html|NetSuite Reference - record.attach(options)}
    * ### Attaches a record to another record.
    * #### `NOTE:` *The record to attach must be active.*
    * ___

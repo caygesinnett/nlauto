@@ -1,4 +1,4 @@
-import N_encodeEncode from './encode'
+import type N_encode_Enum_Encode from './Encode.d.ts'
 
 export default interface N_encode {
   /** #### *This property does not actually exist on the module* */
@@ -8,7 +8,7 @@ export default interface N_encode {
    * Holds the string values for the supported character set encoding. Use This enum to set the
    * `inputEncoding` and `outputEncoding` parameter values in N/crypto Module or N/encode Module
    */
-  Encoding: N_encodeEncode
+  Encoding: N_encode_Enum_Encode
 
   /**
    * @Server_Scripts
@@ -21,7 +21,7 @@ export default interface N_encode {
    */
   convert(options: {
     string: string
-    inputEncoding: N_encodeEncode[keyof N_encodeEncode]
-    outputEncoding: N_encodeEncode[keyof N_encodeEncode]
+    inputEncoding: N_encode_Enum_Encode[keyof N_encode_Enum_Encode]
+    outputEncoding: N_encode_Enum_Encode[keyof N_encode_Enum_Encode]
   }): string
 }

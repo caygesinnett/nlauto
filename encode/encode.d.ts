@@ -1,4 +1,4 @@
-export default interface N_encodeEncode {
+export default interface N_encode_Enum_Encode {
   UTF_8: 'UTF_8'
   BASE_16: 'BASE_16'
   BASE_32: 'BASE_32'
