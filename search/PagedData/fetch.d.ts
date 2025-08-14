@@ -1,0 +1,1 @@
+export default interface N_search_Object_PagedData_Method_fetch {}
