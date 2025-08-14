@@ -1,0 +1,1 @@
+export default interface N_currentRecord_Object_CurrentRecord_Method_setCurrentSublistValue {}

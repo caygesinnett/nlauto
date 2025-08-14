@@ -1,0 +1,3 @@
+export default interface N_currentRecord_Object_Field_Method_getSelectOptions {
+
+}
